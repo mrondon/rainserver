@@ -2,8 +2,9 @@
   "name": "rainserver",
   "version": "0.0.1",
   "description": "A gardening system powered by raspberry pi",
-  "main": "index.js",
+  "main": "webserver.js",
   "scripts": {
+    "start": "NODE_ENV=development node webserver",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
